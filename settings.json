@@ -1,0 +1,68 @@
+{
+    "files.autoSave": "afterDelay",
+    "editor.fontSize": 16,
+    "terminal.integrated.enablePersistentSessions": false,
+    "terminal.integrated.fontSize": 16,
+    "vim.insertModeKeyBindings": [
+        {
+            "before": [
+                "j",
+                "j"
+            ],
+            "after": [
+                "<Esc>"
+            ]
+        }
+    ],
+    "editor.mouseWheelZoom": true,
+    "editor.minimap.enabled": false,
+    "extensions.ignoreRecommendations": true,
+    "explorer.confirmDelete": false,
+    "terminal.integrated.enableMultiLinePasteWarning": false,
+    "editor.fontWeight": "normal",
+    "vsicons.dontShowNewVersionMessage": true,
+    "terminal.integrated.fontWeight": "normal",
+    "explorer.confirmDragAndDrop": false,
+    "terminal.integrated.profiles.windows": {
+        "PowerShell": {
+            "source": "PowerShell",
+            "icon": "terminal-powershell"
+        },
+        "Command Prompt": {
+            "path": [
+                "${env:windir}\\Sysnative\\cmd.exe",
+                "${env:windir}\\System32\\cmd.exe"
+            ],
+            "args": [],
+            "icon": "terminal-cmd"
+        },
+        "Git Bash": {
+            "source": "Git Bash"
+        },
+        "Windows PowerShell": {
+            "path": "C:\\Windows\\System32\\WindowsPowerShell\\v1.0\\powershell.exe"
+        },
+    },
+    "terminal.integrated.defaultProfile.windows": "PowerShell",
+    "[cpp]": {
+        "editor.defaultFormatter": "ms-vscode.cpptools"
+    },
+    "[python]": {
+        "editor.formatOnType": true
+    },
+    "C_Cpp.default.cppStandard": "c++17",
+    "terminal.integrated.defaultProfile.linux": "zsh",
+    "git.openRepositoryInParentFolders": "never",
+    "liveServer.settings.donotShowInfoMsg": true,
+    "liveServer.settings.donotVerifyTags": true,
+    "livePreview.hostIP": "100.64.101.240",
+    "livePreview.defaultPreviewPath": "/index.html",
+    "[html]": {
+        "editor.defaultFormatter": "esbenp.prettier-vscode"
+    },
+    "workbench.iconTheme": "vscode-icons",
+    "code-runner.runInTerminal": true,
+    "git.enableSmartCommit": true,
+    "git.autofetch": true
+
+}
